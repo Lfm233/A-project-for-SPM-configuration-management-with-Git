@@ -114,7 +114,7 @@ git push -u origin master
    git commit -m "Initialize project with structure and initial files"
    ```
 
-5. 推送到远程仓库：
+5. 推送到远程仓库：（https如果不行就换ssh进行连接）
 
    ```bash
    git remote add origin https://github.com/your-username/SPM-Project.git
