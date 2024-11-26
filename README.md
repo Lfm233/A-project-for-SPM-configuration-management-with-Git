@@ -130,7 +130,7 @@ git push -u origin master
 
 1. **创建新功能分支**：
 
-   - 为开发登录模块创建分支：
+   - 为开发登录模块创建分支：（切换分支后，可以在本地对分支文件夹进行增删改查）
 
      ```bash
      git checkout -b feature/login-module
