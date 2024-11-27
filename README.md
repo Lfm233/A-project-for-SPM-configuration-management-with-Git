@@ -423,3 +423,58 @@ SSM-Project/
 
 ```
 
+
+
+
+
+```
+SPM-Project/
+├── docs/                   # 存放文档
+│   ├── requirements.md     # 需求文档
+│   ├── design.md           # 设计文档
+│   └── test-plan.md        # 测试计划
+├── src/                    # 存放代码
+│   ├── module1/            # 模块1：登录模块
+│   │   └── login.py        # 登录功能代码
+│   ├── module2/            # 模块2：预算模块
+│   └── common/             # 公共模块
+├── config/                 # 配置文件
+│   └── application.yml     # 应用配置
+└── README.md               # 项目说明
+```
+
+```
+SPM-Project/
+├── docs/
+│   ├── requirements/
+│   │   ├── module1-requirements.md # 预算管理模块需求文档
+│   │   ├── module2-requirements.md # 内控登录模块需求文档
+│   │   └── module3-requirements.md # 生产数据管理模块需求文档
+│   ├── design/
+│   │   ├── module1-design.md # 预算管理模块设计文档
+│   │   ├── module2-design.md # 内控登录模块设计文档
+│   │   └── module3-design.md # 生产数据管理模块设计文档
+│   ├── test-plans/
+│   └── user-manual/
+├── src/
+│   ├── budget-management/ # 模块 1：预算管理
+│   ├── internal-control-login/ # 模块 2：内控登录
+│   ├── production-data-management/ # 模块 3：生产数据管理
+│   └── common/ # 公共模块和工具函数
+├── test/
+│   ├── unit/ # 单元测试代码
+│   ├── integration/ # 集成测试代码
+│   └── scripts/ # 自动化测试脚本
+├── config/
+│   ├── database/ # 数据库配置文件
+│   ├── server/ # 服务端配置文件
+│   └── application.yml # 应用程序配置
+├── scripts/
+│   ├── build.sh # 构建脚本
+│   ├── deploy.sh # 部署脚本
+│   └── clean.sh # 清理脚本
+├── README.md # 项目介绍
+├── LICENSE # 许可证文件
+└── .gitignore # Git 忽略文件
+```
+
